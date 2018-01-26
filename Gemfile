@@ -6,6 +6,8 @@ gem 'activerecord'
 gem 'sinatra-activerecord'
 
 group :development, :test do
+  gem 'capybara'
+  gem 'launchy'
   gem 'shotgun'
   gem 'tux'
   gem 'rack-test'
