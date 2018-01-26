@@ -4,4 +4,8 @@ class Comedian < ActiveRecord::Base
   def total_specials
     specials.count
   end
+
+  def self.average_age
+    'average-calculation'
+  end
 end
