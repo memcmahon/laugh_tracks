@@ -2,5 +2,10 @@
   <ul>
     <li> <%= comedian.name %> </li>
     <li> <%= comedian.age %> </li>
+    <% comedian.specials.each do |special| %>
+      <ul>
+        <li> <%= special.name %> </li>
+      </ul>
+    <% end %>
   </ul>
 <% end %>

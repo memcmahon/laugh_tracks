@@ -1,4 +1,5 @@
 require 'pry'
+require './spec/spec_helper'
 
 describe "user sees comedian index", :type => :feature do
   context "visit /comedians" do
